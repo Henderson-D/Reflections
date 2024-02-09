@@ -29,7 +29,7 @@
 * NPM- Node Package Manager
 * Don't do rm rm . - this deletes pretty much EVERYTHING from the computer (including OS?)
 * Where is package.JSON installed? Node directory
-* do NOTE keep node modules in GitHub because they can be thousands of files
+* do NOT keep node modules in GitHub because they can be thousands of files
 * Style Lint - 'Cleans' CSS, a way to help us enforce best practices used in everyday business by much more experienced people. It is a code quality tool.
 * Viet - auto updates from VS to Local Server
 * AutoSave on Focus Change - if prettier is 'red', there are errors/broken code
