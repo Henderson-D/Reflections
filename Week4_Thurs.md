@@ -34,7 +34,18 @@
 * Viet - auto updates from VS to Local Server
 * AutoSave on Focus Change - if prettier is 'red', there are errors/broken code
 
-  # Tailwind.Docs General Notes #
+* Used to condense CSS into a MUCH smaller amount of CSS
 
-  
+## Review wrap-up ##
+* Vite auto updates
+* To kill off, Cntl-C (you can do this when it is not auto updating)
 
+## What does it all mean to me / Does it make sense? ##
+> The terminology being explained does make sense, that is not a foreign concept. I do feel like I understand the vocabulary and the general ways around how to use npm, git status, git add, etc. However, what does not make the most sense to me is how to create a repository, such as Code, without being in the home directory. I am not sure if I am confused based off the visual differences from the Mac examples, or what. But I did follow along exactly, I thought, with the videos. Yet, I apparently failed and have a nested repository. While I would say I am by no means confident in my abilities like I would be when using Visual Studio, I do feel like I am actually learning and the most recent examples, especially 'Office Hours,' has been making more sense. I do appreciate the extra assistance in Teams and so forth, that has also helped the content make more sense. I also agree! Please continute to continue doing Office Hours. While it would be beneficial for me if it were not mandatory, I would definitely prefer having content available of someone of my skill level being walked through the material.
+## Can I imagine how these tools might be useful to your future 'real work' ##
+> Absolutely! The company that I work for is owned by an accountant and a software engineer. I am thankful as I make my own work schedule and the software engineer shows me ways to do certain tasks at work using what we have recently learned in class, whether it be this class, SQL, or so forth. I have already assisted in building our company website, changing listings, etc. I can imagine that we would use GitHub to do exactly what it was built for: to access code remotely and store it somewhere other than our local server.
+
+## What dont I like about it? What would I change? ##
+> I greatly dislike the fact that I cannot to Cntrl-C or Cntrl-V in Git Bash. Also, I do not like that I am unable to copy multiple lines in Git Bash and paste them. For example, if there are 5 things to do "Git add" to and I do "Git status," then copy those 5 items, on different lines, then paste them, it will show me an error and will not add those items on lines 2-5. I actually do not believe it will even add item on line 1, but I am unsure. This is nit picky, but I do unfortunately not know much about Git Bash yet, so I am attempting to not want to add a bunch of features, mostly because I am sure that they exist, just not in my realm.
+
+## Sorry if I missed any questions in the video! I did take notes throughout and attempted to be as descriptive as possible while keeping answers somewhat medium length. ##
