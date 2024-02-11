@@ -124,4 +124,4 @@ div class="bg-fixed ..." style="background-image: url(...)"> /div>
 > /button>  
 >
 > are interesting ways to add small touches to regularly used functions on a page. I also liked looking over the rotate section, as I often have a hard time visualizing from the podcast. I cannot see myself using that function for anything at this time, but I am sure
-> that there is something that I am over looking that I could use this function for! 
+> that there is something that I am over looking that I could use this function for! Is there a way to include code in this file without removing the "<" like I had to do? I will look into that more, but I could not figure it out.
