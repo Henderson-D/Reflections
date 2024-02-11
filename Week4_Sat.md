@@ -38,6 +38,18 @@
 
 # Tailwind CSS #
 
+> I actually observed a perfect use for "User-select:none" as I am able to select "message." While this is small, this is a prime example of the usecase that I would deploy that utility.
+>
+> I do really like the fact that there is essentially "no more CSS" and that the amount to be read is much less. I could see this being an issue if someone has never used TailWind and is unfamiliar with this way
+> of styling, that would be the only issue that I can think of. While readability is constantly a concern, this would be the biggest issue; however, isn't css a readability issue anyways? I like it!
+>
+> * input class="placeholder:italic placeholder:text-slate-400 block bg-white w-full border border-slate-300 rounded-md py-2 pl-9 pr-3 shadow-sm focus:outline-none focus:border-sky-500 focus:ring-sky-500 focus:ring-1 sm:text-sm" placeholder="Search for anything..." type="text" name="search"/>  
+>
+>   This was interesting. I knew this before, but have forgotten it!
+>
+> * div class="text-center sm:text-left"> /div>  
+>   For me, I do need to play with this a little bit more in Playground as my understanding of this does seem like I understand it, but using it will help a lot. Is there a good way to actually test this? As it is tied to screen size, how would I go about testing these features easily?
+
 ## Z-Index ##
 > div class="z-40 ...">05</div>  
 div class="z-30 ...">04</div>  
