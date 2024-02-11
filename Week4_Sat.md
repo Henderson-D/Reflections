@@ -50,3 +50,78 @@ div class="z-0 ...">01</div>
 div class="z-0 hover:z-50">  
 /div>
 
+## Flex-Grow / Flex-Shrink ##
+
+div class="flex ...">  
+   div class="flex-none w-14 h-14 ...">  
+    01  
+   /div>  
+  div class="shrink w-64 h-14 ...">  
+    02  
+  /div>  
+  div class="flex-none w-14 h-14 ...">  
+    03  
+  /div>  
+/div>
+> I could see myself using this to allow an image to only shrink, or grow a set amount, to eliminate the possibility of an image becoming super pixelated on a large viewport. For example, our company website, YPS-USA.com, elimates one of the images towards the top of
+> the page if you shrink the viewport enough. While this is definitely an out-of-the-norm situation, we would want to account for the possibility. It would be much more beneficial for these objects to shrink, allowing for all of the objects to remain visible, to some
+> extent.
+>
+> Sidenote: I accidentally found out that (###### XYZ ######) is the same as (###### XYZ #), kinda cool!
+
+## Grid Column Start / End ##
+div class="grid grid-cols-3 gap-4">  
+  div class="...">01</div>  
+  div class="...">02</div>  
+  div class="...">03</div>  
+  div class="col-span-2 ...">04</div>  
+  div class="...">05</div>  
+  div class="...">06</div>  
+  div class="col-span-2 ...">07</div>  
+/div>
+> I did completely forget to commit often and lost a large portion of my work, so I get to learn twice!
+>
+> I could see myself using this tool to create a variation in a group of information. While keeping the information together in a section, yet separated by the difference in the design, would allow for users to not get lost in one large group of information.
+> In my work, we struggle to get users to read inportant information, despite sending it directly to them after purchasing an item. I believe that this would allow us to "trick" their minds into actually reading a majority of the content, while keeping the content the
+> same, just changing the layout from a simple left to right, top to bottom.
+
+
+## Text Decoration ##
+> This would essentially be useful for the same application that I previously mentioned! If I were to underline key component of information, in conjunction with the above code, this would allow users to locate a section by a specific color. Topic A could be color x;
+> Topic B could be color y. This would again separate the information, allow for the ability to easily navigate, and keep the content the same! Also, the hover utility would allow us to change hyperlinks to company colors, rather than a default blue, a slight touch
+> yet a personal one!
+
+## bg Attachment ##
+div class="bg-fixed ..." style="background-image: url(...)"> /div>
+> I would see this being used to keep the background image in the same place to ensure that information that you want to relay to the consumer be relayed. If a phone number, busines name, or other key information is listed somewhere, you can ensure that the information
+> stays in their view, regardless of where they scroll.
+
+## Blur ##
+> I had no idea that you could simply blur the image without actually editting the image! This is pretty cool, and also somewhat amusing that the differences are designated much like shirt sizes. I could see myself using this to keep the same background image for
+> continuity purposes, yet bluring the image so that focus can be brought to whatever other content I would like to be noticed, especially if the background image is somewhat "busy." Backdrop Blur would be equally as useful, for the same reasons already listed.
+
+## pointer-events ##
+> I almost did not notice the difference between "pointer-events-auto" and "pointer-events-none." However, I did notice the differece, being the cursor returns to normal when outside of the actual text entry area. This is a small, yet personal, touch that would be
+> noticed if "pointer-events-none" were set. I am sure I would think that the "pointer-events-none" would look janky if it were in use in the example given.
+
+## SVG ##
+> I had no idea that these were not images! Heroicons.com is now bookmarked for future use! This looks like it could make a page appear much more modern. Rather than a simple "Share" button, an SVG could be used in conjunction to make the page seem a little more
+> professional. This is probably my favorite find of this assignment!
+
+## Resize ##
+> I have actually used this before, as we created a database for work that has a text entry area, which is resizeable. I will probably go back and use the User-Select utility, select all, to make it only select all of the text in said textbox. There has never been a
+> time where we have needed to select only a portion on the text, so this reminded me of that!
+
+## Caret Color ##
+> Kind of nit-picky, but I could see myself using this for a contact form for our company website to include the company colors. This would be a small, yet noticeable touch. I added this to the list of things to do at work on Monday!
+
+# General Notes #
+> I did really like this website! Whether it be the Playground, Heroicons, or some of the small features that make a webpage standout from others, the examples were really good, readable, and I liked the fact that it displays the class and properties at the top of the
+> page, allowing for much better understanding! Simple things like:
+>
+> button class="transition ease-in-out delay-150 bg-blue-500 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300 ...">  
+>  Save Changes  
+> /button>  
+>
+> are interesting ways to add small touches to regularly used functions on a page. I also liked looking over the rotate section, as I often have a hard time visualizing from the podcast. I cannot see myself using that function for anything at this time, but I am sure
+> that there is something that I am over looking that I could use this function for! 
