@@ -58,7 +58,7 @@
 
 * eslint is like stylelint, holding space where we can install packages and modules into the project
 
-* npm inin --yes
+* npm init --yes
 > initializes project to use npm
 > activates package.JSON (i think)
 
