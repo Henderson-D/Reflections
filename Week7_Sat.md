@@ -18,4 +18,53 @@
 > Interesting that you can do "sum = xyz;" and exclude const. I agree, this would be a terrible error and relatively unreadable in the future. What does JavaScript define sum as in this case as far as data type,
 > when it is not declared by us? Does it default to const?
 
-# NEXT TO DO: Re-Read the Eloquent JavaScript Example Codes #
+## Re-Read the *Eloquent JavaScript* Example Codes ##
+* let - similar to const
+  * const is used to create a variable, just like let
+  * CONST DOES NOT MEAN CONSTANT
+    * I did assume that it meant constant as in a non-changing variable
+    * It does seem my idea of const was correct, I believe
+* let - line of code is TEMPORARILY assigned to the VARIABLE
+  * exemplified by +=
+
+* let [create variable];  
+  while (condition statement)  
+  {loop to execute while condition statement is true)  
+  output
+* += takes initial value, removes it, then places new value in its place
+
+> let total = 0, count = 1;  
+> while (count <=10){  
+> total += count;  
+> count += 1;  
+> }  
+> console. log (total);
+
+> [declare variables]  
+> [set condition statement]  
+> [total reassigned to initial value + [count] value (total=total+count)]  
+> [count value equals itself + 1, x=x+1]  
+> [output]
+
+* While STOPS looping when the condition statement is FALSE
+
+## READING *Eloquent JavaScript* ##
+
+## Strings ##
+* Strings, Numbers, and Booleans can all be assigned as a CONST
+* Strings can be used with:
+  * ""
+  * ''
+  * ``
+  * MUST BE STARTED AND ENDED WITH SAME TYPE
+  * USE `` when doing template literals ${XYZ}
+  * > I found this to be interesting, considering JS has been defined as relaxed up to this point
+* To change variable name in all use-cases, use F2
+* Template literal is better than concatenation in this example (and probably most cases)
+
+## Numbers, Booleans, Comparisons, const and let
+
+TO DO:
+Numbers, Booleans, Comparisons, const and let
+READING *Eloquent JavaScript*
+Do Notes for Homework Review
