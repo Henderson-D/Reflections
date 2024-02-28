@@ -2,7 +2,10 @@
 * Be in correct repo
 * .vscode was ignored
   * This means extensions and settings were not actually committed to GitHub
+    
 #### Make sure we have .vscode, extensions.json, and settings.json, then copy and paste the contents of settings/extensions files ####
+> Completed on 2/27 at 6:24pm
+
 * In real code, you mostly don't want to overuse console statements
 * Semi-colon - automatically inserted if they are not present, are optional but corrected by eslint or prettier formatting
 * Semi-colon is like a period, an end of a thought. Not fully needed, but it is proper to use them. USE THEM
