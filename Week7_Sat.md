@@ -65,9 +65,35 @@
 * To change variable name in all use-cases, use F2
 * Template literal is better than concatenation in this example (and probably most cases)
 
-## Numbers, Booleans, Comparisons, const and let
+## Numbers, Booleans, Comparisons, const and let ##
 
+**Numerical Values**
+* There is no declaration of int, float, double, etc.
+* You just create a numerical value and JS figures it out
+  
+**Booleans**
+* Either True or False
+* const isGreater = age > 18
+  * This will be true as long as age is greater than 18
+  * Used to compare values/variables
+  * Can be used to do loops
+* Named after George Bool
+    
+**Const isn't reassignable, let is**  
+*let variableName = 123;  
+variableName = 321
+
+## What does const actually mean? ##
+* a constant reference to a specified value
+* const variables cannot be reassigned
+
+## Primitive Data Types ##
+* often simple and are known as discrete data
+* One individual piece of data
+* Cannot be changed or mutated
+* Must use let if we want to modify the value of a variable
+  * dating(let) VS marriage(const)
+ 
 TO DO:
-Numbers, Booleans, Comparisons, const and let
 READING *Eloquent JavaScript*
 Do Notes for Homework Review
