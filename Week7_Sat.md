@@ -93,7 +93,28 @@ variableName = 321
 * Cannot be changed or mutated
 * Must use let if we want to modify the value of a variable
   * dating(let) VS marriage(const)
+
+# Reading *Eloquent JavaScript* #
+* _"Inside the computer’s world, there is only data. "_
+  > This is essentially true for our physical world too. While there are events that seem non-data-related, they are data-driven and derived. War is a game of logistics, which is driven by data.
+  > Without data, war is lost. Without data, there cannot be rational decision-making. Without data, there is chaos; chaos stems from senseless actions, like a syntax error.
+
+* Bits are 0 and 1
+  * 0 - Low electrical charge
+  * 1 - High electrical charge
+
+* Increase from right to left
+  * 128, 64, 32, 16, 8, 4, 2, 1
+    > This is an interesting way to look at it. Another class goes over this as well, but it was not explained this simple, for whatever reason.
+
+> Is a bit a fixed size?
+ > I do not think that it is, considering that the evolution of products would be severely limited. However, I would assume that the storage of each bit would be limited, at some point.
+ > In the case that we reach whatever theoretical shrinking constraint there is, it would be interesting to see if we traverse the path of shrinking programs. As wrong as it sounds, a 
+ > theoretical instance in which a bit exists that is neither on nor off would likely be a solution.
+ >
+ > I think this would be like UTF-8 compared to UTF-16. There are 8 missing data areas, which are non-existent in UTF-8. However, you could look at this as if the 8 missing digits were neither   > positively or negatively charged. Probably all mumbo-jumbo, but an interesting concept.
+
+## STOPPED READING AT VALUES ##
  
 TO DO:
-READING *Eloquent JavaScript*
 Do Notes for Homework Review
