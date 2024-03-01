@@ -114,7 +114,78 @@ variableName = 321
  >
  > I think this would be like UTF-8 compared to UTF-16. There are 8 missing data areas, which are non-existent in UTF-8. However, you could look at this as if the 8 missing digits were neither   > positively or negatively charged. Probably all mumbo-jumbo, but an interesting concept.
 
-## STOPPED READING AT VALUES ##
- 
-TO DO:
-Do Notes for Homework Review
+* Separate data into chunks to represent pieces of information, called _values_ in JS
+
+* To call a value, you just invoke its name
+  > I completely understand the necessity of using values for the sake of time, legibility, and countless other reasons; however as devil's advocate, when you call the value, would it cause       > some very small delay as opposed to typing the data the value holds? For example, instead of having 2+3 directly in front of you, you would have to determine that xyz = 123 and then assign    > 123 in its place. Again, simply just talking about the most basic, unnoticed delays being possible.
+
+* JS uses 64 bits to store a single number value
+
+* The value of different numbers is actually _limited_
+  > This is interesting, yet unsurprising.
+
+*  Maximum whole number that can be stored is around 9 quadrillion(15 zeros)
+
+* fractions are with a decimal
+* very large or small with e (for exponent)
+
+* Math functions exactly how you would expect
+
+* % is the remainder property, like C#
+
+__SPECIAL NUMBERS__
+* Infinity
+* -Infinity
+* NaN - Not a Number
+
+__Strings__
+* Function like normal, use '',"",``
+* \n - New Line
+* Unicode standard used but uses 16 bits per string element
+* emoji's take us two character positions
+* Strings cannot be divided, multiplied, or subtracted __THEY ARE CONCATENATED__
+
+__Unary Operators__
+> console.log(typeof 1.5)  
+> // → number
+* Not entirely sure that I understand the typeof operator. My understanding is that it will return whether the value is a type of string or number. However, what exact benefit would this give you?
+
+* binary operator - takes two values
+* unary operator - takes one value
+
+__Boolean__
+* True or False
+* Used for cases like "Yes or No" and "On or Off"
+__Comparison__
+> console.log(3 > 2)  
+> // → true
+* Used to produce a boolean Value
+
+> console.log("Aardvark" < "Zoroaster")  
+> // → true
+* You can compare strings, Uppercase letters are less than lowercase. More characters will be greater as well
+
+* There is only one value in JavaScript that is not equal to itself, and that is NaN (“not a number”).
+> console.log(NaN == NaN)  
+> // → false
+
+> This makes sense, as you cannot compare a non-number that is also a non-string
+
+__Logical Operators__
+* AND - &&
+* OR - ||
+* NOT - !
+* Pretty much just like C# in terms of how it works
+
+__Comparison Operators__
+* >, <, <=, =>, etc
+
+__Ternary Operator__
+> console.log(true ? 1 : 2);  
+> // → 1  
+> console.log(false ? 1 : 2);  
+> // → 2
+
+* Conditional operator
+* When true, it picks the middle value
+* When false, it chooses value on the right
