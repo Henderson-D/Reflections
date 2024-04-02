@@ -36,3 +36,12 @@ function example(xyz, zyx){random code}
 
 because there is not an int variable in the call function parameters, the parameter data types are not met.
 ```
+* Functions without a return statement return undefined.
+
+* Global bindings are declared outside of a function, they are accessible throughout the entire program
+
+* Local bindings are declared within a container, such as a function. These are only accessible within the scope of their container and are not accessible throughout the entire program
+
+* If a binding, or variable, is declared globally and locally within a function, the function uses the local variable definition rather than the global definition.
+
+* 
