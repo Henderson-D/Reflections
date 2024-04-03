@@ -123,3 +123,53 @@ greet();
 > The examples given are not necessarily hard to read, but I do not understand why they do not use basic examples like the above to showcase functionality. Overcomplication is the main issue with some of the examples
 > throughout. Other than that, I do enjoy reading this material
 
+# Code Example Thoughts #
+```
+const hummus = function (factor) {
+  const ingredient = function (amount, unit, name) {
+    let ingredientAmount = amount * factor;
+    if (ingredientAmount > 1) {
+      unit += "s";
+    }
+    console.log(`${ingredientAmount} ${unit} ${name}`);
+  };
+  ingredient(1, "can", "chickpeas");
+  ingredient(0.25, "cup", "tahini");
+  ingredient(0.25, "cup", "lemon juice");
+  ingredient(1, "clove", "garlic");
+  ingredient(2, "tablespoon", "olive oil");
+  ingredient(0.5, "teaspoon", "cumin");
+};
+```
+> My initial thoughts are:
+ * Author used let instead of const
+ * Why not declare the ingredient list as an array such as:
+```
+const hummus = function (factor) {
+
+  const ingredients = [
+    { amount: 1, unit: "can", name: "chickpeas" },
+    { amount: 0.25, unit: "cup", name: "tahini" },
+    { amount: 0.25, unit: "cup", name: "lemon juice" },
+    { amount: 1, unit: "clove", name: "garlic" },
+    { amount: 2, unit: "tablespoon", name: "olive oil" },
+    { amount: 0.5, unit: "teaspoon", name: "cumin" }
+  ];
+
+  const ingredient = function (item) {
+    let ingredientAmount = item.amount * factor;
+    let unit = item.unit;
+    if (ingredientAmount > 1) {
+      unit += "s";
+    }
+    console.log(`${ingredientAmount} ${unit} ${item.name}`);
+  };
+
+  ingredients.forEach(ingredient);
+};
+
+hummus(2)
+```
+* This seems easier to read, personally as the ingredients are declared at the top, I do not have to scroll through the code to determine where these are delared at.
+  * Is there an actual reason that he did it the way that he did?
+* I don't like the term 'factor' as a parameter, this is a little nit-picky but still.
