@@ -44,4 +44,82 @@ because there is not an int variable in the call function parameters, the parame
 
 * If a binding, or variable, is declared globally and locally within a function, the function uses the local variable definition rather than the global definition.
 
-* 
+* Nested Scope is referring to blocks and functions being able to be called within each other. For example:
+  ```
+  const functionName function (){
+    const otherFunction() {scope for this function cant leave this container. Variables declared within are not directly able to be reference outside}
+  }
+  ```
+* This is defined as _lexical scoping_
+
+## Functions as Values ##
+* I generally do not like the explainations and analogies provided in this section as I do not think that they are very clear
+
+  ```
+  const variableName = function(){
+    xyz
+  }
+  if (someParameter){
+    variableName = function() {reassignment to initial const variableName}
+  }
+  ```
+* This is just referring to a variable being assigned the output of a function, this function that this variable is assigned to can change, changing the output of the variable when called
+
+## Declaration Notation ##
+* Function declarations are not part of the regular top to bottom flow of control
+  * Once declared, they essentially are declared at the very beginning of the scope, being able to be accessed by everything above and below the function declaration
+ 
+## Ar=>row Functions ##
+* THIS, I was just reviewing this the other day in some online research and thought this was interesting, as it seemed pretty interesting to me, I will definitely be implementing this in my code
+
+  ```
+  const variableName = (someParameter) =>{
+    xyz
+  }
+  ```
+* If there are no parameters:
+  ```
+  const variableName = () =>{
+    xyz
+  }
+  ```
+* This was created to write smaller functions with a smaller footprint
+
+## The Call Stack ##
+* This is where the computer stores the context of a function being called
+* When a function is called, the new context is stored at the top of the stack
+* Infinite loops and a call stack that has grown too large will return with a fail message
+
+## Optional Arguments ##
+* Extra arguments are ignored and missing arguments are assigned a value of undefined
+```
+function minus(a, b) {
+  if (b === undefined) return -a;
+  else return a - b;
+}
+
+console.log(minus(10));
+// → -10
+console.log(minus(10, 5));
+// → 5
+```
+* The -10 value is assigned as such as the equation became (undefined - 10) where as the 5 value is due to the equation being (10 - 5)
+
+* You can fill in the missing parameters when they are missing by entering = after the parameter:
+
+```
+function greet(name = "stranger") {
+  console.log("Hello, " + name + "!");
+}
+
+greet("John");
+// Output: Hello, John!
+
+greet();
+// Output: Hello, stranger!
+
+```
+
+> The examples given are not necessarily hard to read, but I do not understand why they do not use basic examples like the above to showcase functionality. Overcomplication is the main issue with some of the examples
+> throughout. Other than that, I do enjoy reading this material
+
