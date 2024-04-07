@@ -1,5 +1,6 @@
 ## Genereal Thoughts About Code Examples ##
 
+# These are all pushed to index.js in first-blood #
 * Here are a few of my examples:
 > Please note that I am involved in Army training this weekend; thus, this work was completed offline and will unfortunately be committed as a block to index.js, rather than as proper commits.
 > There really wasn't much that I could do about this.
