@@ -17,6 +17,6 @@
  * Element Nodes: Much like the above
  * Text Nodes: Represents the text __INSIDE__ of elements, <p>Like This</p>
  * Attributes: Can include things like ID's, classes, src, href, etc
- * Document: HTML or XML (LOL at the not worry about XML comment, I thought the same thing initially)
+ * Document: HTML or XML (LOL at the not worrying about XML comment, I thought the same thing initially)
 
 __BOM v. DOM__
