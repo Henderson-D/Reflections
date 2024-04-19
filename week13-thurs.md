@@ -41,3 +41,7 @@ variableName.addEventListener("type of event", functionName)
 > It should automatically be on that time stamp for ~45 mins, where it directly talks about this
 
 > This is probably the seciton that I am most interested in to be honest as I have reviewed countless videos regarding HTML, CSS, JS, C# and so forth from random school lectures, usually Harvards free classes.
+
+* ('tag')
+* (#id)
+* (.class)
