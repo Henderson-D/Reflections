@@ -11,3 +11,5 @@
 
 > The tests themselves are not entirely confusing, after seeing your block of code for testing names with different variations of spaces/special characters it is evident that you most are changing the input
 > and the expected output, it looked pretty simply. However, it would probably be more confusing when writing tests for more complicated code, that is the aspect that I probably need more practice with.
+
+> There are not really any questions left for me with reduce, it wasn't entirely easy as far as syntax and what-not; however, the concept around it is simple > and I feel as though I have a good understanding of reduce.
